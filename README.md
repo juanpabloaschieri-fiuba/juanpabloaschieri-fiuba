@@ -11,10 +11,10 @@ This profile collects some of what I built at university: mostly Rust, mostly sy
 | Project | What it is | Stack |
 |---|---|---|
 | [**Esp32Framework**](https://github.com/esp32framework/esp32framework) | Final degree project. A framework that makes ESP32 microcontrollers programmable without bare-metal knowledge | Rust, ESP-IDF, BLE, Wi-Fi |
-| [**Bitcoin node & wallet**](https://github.com/higlak/bitcoin-node-rust) | A Bitcoin testnet node written from scratch, with a desktop wallet | Rust, TCP, GTK |
-| [**Fault-tolerant data pipeline**](https://github.com/higlak/fault-tolerant-pipeline) | A distributed pipeline that survives nodes being killed mid-run | Python, RabbitMQ, Docker |
-| [**Token-ring store network**](https://github.com/higlak/token-ring-stores) | Peer-to-peer stores that agree on who ships each online order, without a coordinator | Rust, actix, UDP |
-| [**Commodore 64 BASIC interpreter**](https://github.com/higlak/commodore64-basic-interpreter) | An interpreter for Commodore 64 BASIC V2 | Clojure |
+| [**Bitcoin node & wallet**](https://github.com/juanpabloaschieri-fiuba/bitcoin-node-rust) | A Bitcoin testnet node written from scratch, with a desktop wallet | Rust, TCP, GTK |
+| [**Fault-tolerant data pipeline**](https://github.com/juanpabloaschieri-fiuba/fault-tolerant-pipeline) | A distributed pipeline that survives nodes being killed mid-run | Python, RabbitMQ, Docker |
+| [**Token-ring store network**](https://github.com/juanpabloaschieri-fiuba/token-ring-stores) | Peer-to-peer stores that agree on who ships each online order, without a coordinator | Rust, actix, UDP |
+| [**Commodore 64 BASIC interpreter**](https://github.com/juanpabloaschieri-fiuba/commodore64-basic-interpreter) | An interpreter for Commodore 64 BASIC V2 | Clojure |
 
 ### Esp32Framework
 A layer over the `esp-idf-svc` crate that gives beginners a simple API for GPIO (digital and analog, ADC and PWM), timers with multiple interrupts, I2C and UART, Bluetooth Low Energy (beacon, server and client), HTTP/HTTPS over Wi-Fi and sensor drivers. It also ships its own on-device test runner. Built by a team of four. I'm its top contributor (184 commits): digital I/O and interrupts, the timer driver, the notification system and its async support, the BLE stack, the shared-reference procedural macro, and the test runner.
