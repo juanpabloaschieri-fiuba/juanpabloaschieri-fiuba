@@ -4,7 +4,7 @@ Backend and platform engineer from Buenos Aires, Argentina. Informatics Engineer
 
 At work I build event-driven backend systems: a real-time alarm platform that processes thousands of security alarms a day over Apache Kafka, company-wide single sign-on with Keycloak, and the GitLab CI → ArgoCD → Kubernetes pipeline my team ships on. I also lead my team's adoption of structured, spec-driven AI-assisted engineering. That work lives in private repositories.
 
-This profile collects what I built at university: mostly Rust, mostly systems: embedded, networking protocols, concurrency and fault-tolerant distributed systems.
+This profile collects some of what I built at university: mostly Rust, mostly systems: embedded, networking protocols, concurrency and fault-tolerant distributed systems.
 
 ## Featured projects
 
